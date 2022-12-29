@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Login Details</legend>
+        <div class="form-item">
+          <label for="username">Username</label>
+          <input type="text" name="username" id="username" />
+        </div>
+        <div class="form-item">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" />
+        </div>
+        <div class="form-item">
+          <label for="retype-password">Retype Password</label>
+          <input type="password" name="retype-password" id="retype-password" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>User Details</legend>
+        <div class="form-item">
+          <label for="first-name">First Name</label>
+          <input type="text" name="first-name" id="first-name" />
+        </div>
+        <div class="form-item">
+          <label for="last-name">Last Name</label>
+          <input type="text" name="last-name" id="last-name" />
+        </div>
+        <div class="form-item">
+          <label for="gender">Gender</label>
+          <input type="radio" name="gender" id="male" value="Male" />
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="female" value="Female" />
+          <label for="female">Female</label>
+        </div>
+        <div class="form-item">
+          <label for="birth">Date of Birth</label>
+          <input type="text" name="birth" id="birth" />
+        </div>
+        <div class="form-item">
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email" />
+        </div>
+      </fieldset>
+      <button id="submit-btn">Submit</button>
+    </form>
+    <div class="container">
+      <table>
+        <tr>
+          <th>Nbr</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Gender</th>
+          <th>Date of Birth</th>
+          <th>Email</th>
+          <th>Username</th>
+        </tr>
+      </table>
+    </div>
+  </body>
+  <script src="script.js" type="module"></script>
+</html>
